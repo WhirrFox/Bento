@@ -295,6 +295,14 @@ body {
   flex-direction: column;
 }
 
+#todoist {
+  width: 100%;
+  height: calc(4 * (1vh + var(--fg-list) * 1.35 + 2 * 8px));
+  justify-content: start;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
 .list__1 {
   grid-column: 1;
   grid-row: 1 / span 2;
