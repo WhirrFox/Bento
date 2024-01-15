@@ -5,13 +5,22 @@
 // │  │ ││││├┤ ││ ┬│ │├┬┘├─┤ │ ││ ││││
 // └─┘└─┘┘└┘└  ┴└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
 
+const getKey = (name) => {
+	key = localStorage.getItem(name);
+	if (!key) {
+		key = prompt(name);
+		localStorage.setItem(name, key);
+	}
+	return key;
+}
+
 const CONFIG = {
 	// ┌┐ ┌─┐┌─┐┬┌─┐┌─┐
 	// ├┴┐├─┤└─┐││  └─┐
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Lily',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -26,7 +35,7 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: getKey('weatherKey'),
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
@@ -59,9 +68,9 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'AniList',
+			icon: 'layout-list',
+			link: 'https://anilist.co',
 		},
 		{
 			id: '3',
@@ -71,9 +80,9 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'YouTube',
+			icon: 'youtube',
+			link: 'https://youtube.com',
 		},
 		{
 			id: '5',
@@ -84,7 +93,7 @@ const CONFIG = {
 		{
 			id: '6',
 			name: 'Odysee',
-			icon: 'youtube',
+			icon: 'video',
 			link: 'https://odysee.com/',
 		},
 	],
