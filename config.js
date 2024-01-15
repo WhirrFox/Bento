@@ -95,9 +95,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'video',
-			link: 'https://odysee.com/',
+			name: 'YouTube Music',
+			icon: 'disc-2',
+			link: 'https://music.youtube.com/',
 		},
 	],
 
