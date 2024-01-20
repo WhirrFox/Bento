@@ -1,7 +1,7 @@
 // ┌┬┐┌─┐┌┬┐┌─┐┬┌─┐┌┬┐
 //  │ │ │ │││ ││└─┐ │ 
 //  ┴ └─┘─┴┘└─┘┴└─┘ ┴ 
-// Todoist integration made by PaleVulpo
+// Todoist integration made by WhirrFox
 
 const getTodoistEntries = async () => {
   const req = new Request('https://api.todoist.com/rest/v2/tasks', { headers: { Authorization: `Bearer ${CONFIG.todoistKey}` } })
