@@ -46,6 +46,9 @@ const CONFIG = {
 	
 	// Todoist
 	todoistKey: getKey('todoistKey'),
+	
+	// Holodex
+	holodexKey: getKey('holodexKey'),
 
 	// Autochange
 	autoChangeTheme: true,
@@ -153,26 +156,10 @@ const CONFIG = {
 			links: [],
 		},
 		{
-			icon: 'coffee',
+			icon: 'radio',
 			id: '2',
-			links: [
-				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
-				},
-				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
-				},
-				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
-				},
-				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
-				},
-			],
+			links: [],
+			type: 'holodex',
 		},
 	],
 

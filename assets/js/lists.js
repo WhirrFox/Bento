@@ -5,10 +5,10 @@
 
 const generateFirstListsContainer = () => {
   for (const list of CONFIG.firstlistsContainer) {
-    let item = list.type === 'todoist' ? `
+    let item = list.type ? `
         <div class="card list list__${list.id}" id="list_${list.id}">
           <i class="listIcon" icon-name="${list.icon}"></i>
-          <div class="list" id="todoist">
+          <div class="list customList" id="${list.type}">
           </div>
         </div>
       ` : `

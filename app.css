@@ -19,6 +19,7 @@
   /* Fonts Color */
   --fg: #3a3a3a; /* Foreground color */
   --sfg: #494949; /* Sceondary Foreground color */
+  --live: #d20f39; /* Holodex live color */
 
   /* Light Colors  */
   --accent: #57a0d9; /* Hover color */
@@ -42,6 +43,7 @@
   /* Fonts Color */
   --fg: #d8dee9; /* Foreground color */
   --sfg: #2c292e; /* Secondary Foreground color */
+  --live: #f38ba8; /* Holodex live color */
 
   /* Image background  */
   --imgcol: linear-gradient(
@@ -295,12 +297,16 @@ body {
   flex-direction: column;
 }
 
-#todoist {
+.customList {
   width: 100%;
   height: calc(4 * (1vh + var(--fg-list) * 1.35 + 2 * 8px));
   justify-content: start;
   overflow-x: hidden;
   overflow-y: scroll;
+}
+
+.holodex-live {
+  color: var(--live) !important;
 }
 
 .list__1 {
