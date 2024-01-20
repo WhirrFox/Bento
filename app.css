@@ -6,14 +6,14 @@
 
 /* V A R I A B L E S */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap'); /* Font Import */
 
 :root {
   /* Font Size */
-  --fg-primary: 12vh; /* Time and Greetings */
-  --fg-secondary: 3vh; /* Greetings and Weather widger */
+  --fg-primary: 18vh; /* Time and Greetings */
+  --fg-secondary: 5vh; /* Greetings and Weather widger */
   --fg-date: 8vh; /* Date */
-  --fg-list: 2vh; /* Links List */
+  --fg-list: 2.5vh; /* Links List */
   --icon: 3vh; /* Icon Size */
 
   /* Fonts Color */
@@ -58,7 +58,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Caveat', cursive, sans-serif;
+  font-weight: 600;
   transition: 0.2s ease-in-out;
 }
 
