@@ -80,9 +80,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Tumblr',
+			icon: 'pyramid',
+			link: 'https://tumblr.com',
 		},
 		{
 			id: '4',
