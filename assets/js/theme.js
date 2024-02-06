@@ -10,14 +10,12 @@ const bodyBackground = document.getElementById('#body');
 const enableDark = () => {
 	document.body.classList.add('darktheme');
 	localStorage.setItem('darkTheme', 'enabled');
-	themeToggle.innerHTML = `<i id="themeButton__icon" icon-name="sun"></i>`;
 	lucide.createIcons();
 };
 
 const disableDark = () => {
 	document.body.classList.remove('darktheme');
 	localStorage.setItem('darkTheme', null);
-	themeToggle.innerHTML = `<i id="themeButton__icon" icon-name="moon"></i>`;
 	lucide.createIcons();
 };
 
@@ -61,3 +59,5 @@ if (CONFIG.changeThemeByHour && CONFIG.autoChangeTheme && !CONFIG.changeThemeByO
 		disableDark();
 	}
 }
+
+themeToggle.innerHTML = `<img id="themeIcon" src="https://avatars.githubusercontent.com/u/${CONFIG.githubUserId}">`;

@@ -21,6 +21,7 @@ const CONFIG = {
 
 	// General
 	name: 'Lily',
+	githubUserId: 31930689,
 	imageBackground: false,
 	openInNewTab: false,
 	twelveHourFormat: false,
@@ -39,14 +40,14 @@ const CONFIG = {
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'de', // More languages in https://openweathermap.org/current#multi
-	
+
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '37.775',
 	defaultLongitude: '-122.419',
-	
+
 	// Todoist
 	todoistKey: getKey('todoistKey'),
-	
+
 	// Holodex
 	holodexKey: getKey('holodexKey'),
 

@@ -6,50 +6,67 @@
 
 /* V A R I A B L E S */
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap'); /* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+/* Font Import */
 
 :root {
   /* Font Size */
-  --fg-primary: 18vh; /* Time and Greetings */
-  --fg-secondary: 5vh; /* Greetings and Weather widger */
-  --fg-date: 8vh; /* Date */
-  --fg-list: 2.5vh; /* Links List */
-  --icon: 3vh; /* Icon Size */
+  --fg-primary: 18vh;
+  /* Time and Greetings */
+  --fg-secondary: 5vh;
+  /* Greetings and Weather widger */
+  --fg-date: 8vh;
+  /* Date */
+  --fg-list: 2.5vh;
+  /* Links List */
+  --icon: 3vh;
+  /* Icon Size */
 
   /* Fonts Color */
-  --fg: #3a3a3a; /* Foreground color */
-  --sfg: #494949; /* Sceondary Foreground color */
-  --live: #d20f39; /* Holodex live color */
+  --fg: #3a3a3a;
+  /* Foreground color */
+  --sfg: #494949;
+  /* Sceondary Foreground color */
+  --live: #d20f39;
+  /* Holodex live color */
 
   /* Light Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #f5f5f5; /* Background color */
-  --cards: #e4e6e6; /* Cards color */
+  --accent: #57a0d9;
+  /* Hover color */
+  --background: #f5f5f5;
+  /* Background color */
+  --cards: #e4e6e6;
+  /* Cards color */
 
   /* Image background  */
-  --imgbg: url(assets/background.jpg); /* Image URL */
-  --imgcol: linear-gradient(
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.7)
-  ); /* Filter color */
+  --imgbg: url(assets/background.jpg);
+  /* Image URL */
+  --imgcol: linear-gradient(rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7));
+  /* Filter color */
 }
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #57a0d9; /* Hover color */
-  --background: #19171a; /* Background color */
-  --cards: #201e21; /* Cards color */
+  --accent: #57a0d9;
+  /* Hover color */
+  --background: #19171a;
+  /* Background color */
+  --cards: #201e21;
+  /* Cards color */
 
   /* Fonts Color */
-  --fg: #d8dee9; /* Foreground color */
-  --sfg: #2c292e; /* Secondary Foreground color */
-  --live: #f38ba8; /* Holodex live color */
+  --fg: #d8dee9;
+  /* Foreground color */
+  --sfg: #2c292e;
+  /* Secondary Foreground color */
+  --live: #f38ba8;
+  /* Holodex live color */
 
   /* Image background  */
-  --imgcol: linear-gradient(
-    rgba(0, 0, 0, 0.85),
-    rgba(0, 0, 0, 0.85)
-  ); /* Filter color */
+  --imgcol: linear-gradient(rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.85));
+  /* Filter color */
 }
 
 /* S T Y L E S */
@@ -96,8 +113,9 @@ body {
 }
 
 #themeIcon {
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 999999999px;
 }
 
 .container {
@@ -254,29 +272,36 @@ body {
   grid-row: 1;
   grid-column: 1;
 }
+
 .button__2 {
   grid-row: 1;
   grid-column: 2;
 }
+
 .button__3 {
   grid-row: 2;
   grid-column: 1;
 }
+
 .button__4 {
   grid-row: 2;
   grid-column: 2;
 }
+
 .button__5 {
   grid-row: 1;
   grid-column: 3;
 }
+
 .button__6 {
   grid-row: 2;
   grid-column: 3;
 }
+
 .button:hover {
   background-color: var(--accent);
 }
+
 .button:hover svg {
   stroke: var(--sfg);
 }
@@ -314,10 +339,12 @@ body {
   grid-column: 1;
   grid-row: 1 / span 2;
 }
+
 .list__2 {
   grid-column: 2;
   grid-row: 1 / span 2;
 }
+
 .listIcon {
   /* margin-top: 3vh; */
   margin-bottom: 2vh;
@@ -325,6 +352,7 @@ body {
   width: var(--icon);
   height: var(--icon);
 }
+
 .listItem {
   text-decoration: none;
   font-size: var(--fg-list);
@@ -336,6 +364,7 @@ body {
   text-align: center;
   width: 80%;
 }
+
 .listItem:hover {
   background-color: var(--accent);
   color: var(--sfg);
