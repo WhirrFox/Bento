@@ -20,7 +20,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Lily',
+	name: 'Lilli',
 	githubUserId: 31930689,
 	imageBackground: false,
 	openInNewTab: false,
