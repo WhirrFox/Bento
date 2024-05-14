@@ -6,18 +6,18 @@
 
 /* V A R I A B L E S */
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
 /* Font Import */
 
 :root {
   /* Font Size */
-  --fg-primary: 18vh;
+  --fg-primary: 12vh;
   /* Time and Greetings */
-  --fg-secondary: 5vh;
+  --fg-secondary: 3vh;
   /* Greetings and Weather widger */
   --fg-date: 8vh;
   /* Date */
-  --fg-list: 2.5vh;
+  --fg-list: 2vh;
   /* Links List */
   --icon: 3vh;
   /* Icon Size */
@@ -75,8 +75,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Caveat', cursive, sans-serif;
-  font-weight: 600;
+  font-family: 'Coming Soon', cursive, sans-serif;
+  font-weight: 400;
   transition: 0.2s ease-in-out;
 }
 
