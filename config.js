@@ -93,9 +93,9 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Lemmy',
-			icon: 'rat',
-			link: 'https://feddit.de',
+			name: 'Todoist',
+			icon: 'list-todo',
+			link: 'https://todoist.com',
 		},
 		{
 			id: '6',
@@ -151,7 +151,7 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'list-checks',
+			icon: 'list-todo',
 			id: '1',
 			type: 'todoist',
 			links: [],
