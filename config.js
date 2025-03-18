@@ -87,9 +87,9 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'YouTube',
-			icon: 'youtube',
-			link: 'https://youtube.com',
+			name: 'Nekoweb',
+			icon: 'cat',
+			link: 'https://nekoweb.org',
 		},
 		{
 			id: '5',
